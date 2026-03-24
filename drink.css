@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+body {
+    margin: 0;
+    font-family: Thunder;
+    background: #f4f4f4;
+}
+
+@font-face {
+  font-family: 'Thunder';
+  src: url('Assets/Fonts/Variable-TT/Thunder-VF.ttf') format('truetype');
+  font-weight: 1 1000;
+  font-style: normal;
+  font-display: swap; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background-color: white; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 35px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s ease;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.green .number { color: #6b7e32; }
+.green:hover { background-color: #6b7e32; }
+
+.red .number { color: #a34d4d; }
+.red:hover { background-color: #a34d4d; }
+
+.purple .number { color: #7d4da3; }
+.purple:hover { background-color: #7d4da3; }
+
+.orange .number { color: #d4a34d; }
+.orange:hover { background-color: #d4a34d; }
+
+.item-image {
+    width: 0;
+    height: auto;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.box:hover .item-image {
+    width: 260px; 
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.box:hover {
+    flex: 1.5; 
+    color: white;
+}
+
+.info {
+    text-align: center;
+}
+
+.number {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 30px;
+    border: 1px solid currentColor;
+    border-radius: 30px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
