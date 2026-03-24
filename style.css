@@ -54,6 +54,7 @@ h2{
     font-size: 15px;
     position: absolute;
     bottom: 100px;
+    max-width: 500px;
 }
 
 .BreakfastMenu-Button{
@@ -210,4 +211,69 @@ h2{
 #dessert-screen
     { background-color: #7B1E7A } 
 
+@media (max-width: 768px) {
+    
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Backgroundtxt {
+        font-size: 110px; 
+        top: 15%; 
+        width: 100%;
+        text-align: center;
+        letter-spacing: -2px;
+    }
+    
+    h2 {
+        position: absolute;
+        top: 30%; 
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .Explanation {
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.4;
+        max-width: 300px;
+    }
+
+    .BreakfastMenu-Button, 
+    .LunchMenu-Button, 
+    .DrinksMenu-Button, 
+    .DessertsMenu-Button {
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 20;
+        width: auto;
+        padding: 12px 30px;
+    }
+
+    .Backgroundimg {
+        width: 100%; 
+        max-width: 450px;
+        top: auto;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .side-nav {
+        font-size: 45px;
+        padding: 0 15px;
+        top: 40%; 
+    }
+
+}
 
