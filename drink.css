@@ -13,7 +13,7 @@ body {
 
 @font-face {
   font-family: 'Thunder';
-  src: url('Assets/Fonts/Thunder-VF.ttf') format('truetype');
+  src: url('Assets/Fonts/Variable-TT/Thunder-VF.ttf') format('truetype');
   font-weight: 1 1000;
   font-style: normal;
   font-display: swap; 

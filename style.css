@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'Thunder';
-  src: url('Assets/Fonts/Thunder-VF.ttf') format('truetype');
+  src: url('Assets/Fonts/Variable-TT/Thunder-VF.ttf') format('truetype');
   font-weight: 1 1000;
   font-style: normal;
   font-display: swap; 
@@ -35,7 +35,14 @@
     transform: translate(-50%, -50%);
     width: 750px;
 }
-
+.DessertBackgroundimg{
+    top: 97%;
+    left: 50%;
+}
+.BreakfastBackgroungimg{
+    top: 90%;
+    left: 50%;
+}
 h2{
     font-size: 30px;
     position: absolute;
@@ -49,7 +56,8 @@ h2{
     bottom: 100px;
 }
 
-.Menu-Button{
+.BreakfastMenu-Button{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,8 +70,61 @@ h2{
     padding: 15px;
 }
 
-.Menu-Button p{
+.BreakfastMenu-Button p{
     color: #d86256;
+    font-size: 20px;
+}
+.DrinksMenu-Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    font-size: 15px;
+    bottom: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.DrinksMenu-Button p{
+    color: #8DAB7F;
+    font-size: 20px;
+}
+
+.DessertsMenu-Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    font-size: 15px;
+    bottom: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.DessertsMenu-Button p{
+    color: #7B1E7A ;
+    font-size: 20px;
+}
+
+.LunchMenu-Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    font-size: 15px;
+    bottom: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.LunchMenu-Button p{
+    color:  #4A90E2;
     font-size: 20px;
 }
 .main-wrapper {
@@ -143,6 +204,10 @@ h2{
 #breakfast-screen
     { background-color: #d86256; }
 #lunch-screen
-    { background-color: #4A90E2; } 
+    { background-color: #4A90E2; }
+#drinks-screen
+    { background-color: #8DAB7F; } 
+#dessert-screen
+    { background-color: #7B1E7A } 
 
 
