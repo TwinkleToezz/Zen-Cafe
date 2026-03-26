@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color:white;
+    font-family: 'Thunder', sans-serif;
 
 }
 
@@ -18,6 +19,7 @@ body {
   font-weight: 1 1000;
   font-style: normal;
   font-display: swap; 
+  
 }
 
 .navbar {
