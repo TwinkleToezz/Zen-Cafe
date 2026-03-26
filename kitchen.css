@@ -1,0 +1,45 @@
+body.kitchen {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #eef1f5;
+}
+
+body.kitchen header {
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 30px;
+}
+
+body.kitchen .container {
+  padding: 25px;
+}
+
+body.kitchen .box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+body.kitchen .order {
+  background: #f8f9fb;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+body.kitchen .order.ready {
+  background: #d4edda;
+}
+
+body.kitchen button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}

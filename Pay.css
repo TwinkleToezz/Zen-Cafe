@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'Thunder';
+  src: url('./Assets/Fonts/Thunder-VF.ttf') format('truetype');
+  font-weight: 1 1000;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Thunder', sans-serif;
+}
+
+body {
+  background-color: #efbbff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+  background-color: #660066;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1400px;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(102, 0, 102, 0.1);
+}
+
+.box h3 {
+  color: #660066;
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #efbbff;
+  padding-bottom: 5px;
+}
+
+#logo{
+  width: 40px;
+}
+
+#total{
+  padding-top: 10px;
+}
+.menu-name, .cart-name {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.1);
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-size: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+.item-price {
+  font-size: 18px;
+  color: #d86256;
+  /* Accent color for prices */
+  font-weight: bold;
+}
+
+
+#menu button,
+.add-item-btn {
+  background-color: #660066;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(102, 0, 102, 0.2);
+}
+
+
+#menu button:hover,
+.add-item-btn:hover {
+  background-color: #efbbff;
+  color: #660066;
+  transform: translateY(-2px);
+}
+
+.menu-divisor {
+  display: block !important;
+  width: 100% !important;
+  clear: both;
+  margin: 25px 0 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #660066;
+  color: #660066;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Thunder', sans-serif;
+}
+
+/* 1. Global Font Increase */
+.cart-name {
+    font-size: 32px; /* Large and bold */
+    color: #000;
+    font-family: 'Thunder', sans-serif;
+}
+
+/* 2. Item Row Layout */
+.cart-item {
+    display: flex;
+    justify-content: space-between; /* Pushes name to left, buttons to right */
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #efbbff;
+}
+
+/* 3. Quantity Controls Container */
+.qty-control {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between - 1 + */
+}
+
+/* 4. The - and + Buttons (The Colouring) */
+.qty-btn {
+    background-color: #660066; /* Your Deep Purple */
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.qty-btn:hover {
+    background-color: #efbbff;
+    color: #660066;
+}
+
+/* The Number between the buttons */
+.qty-control span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #660066;
+}
+
+/* 5. Inputs (Name & Money) */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 20px; /* Increased font for inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 6. The Place Order Button */
+.placeOrder {
+    width: 100%;
+    padding: 15px;
+    background-color: #660066;
+    color: white;
+    border: none;
+    font-size: 24px; /* Big font */
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.logo{
+  position: absolute;
+  left: 5%;
+  
+}

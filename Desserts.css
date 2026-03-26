@@ -3,18 +3,17 @@
     margin: 0;
     padding: 0;
     color:white;
-
 }
 
 body {
     margin: 0;
     font-family: Thunder;
-    background: white;
+    background: #f4f4f4;
 }
 
 @font-face {
   font-family: 'Thunder';
-  src: url('Assets/Fonts/Thunder-VF.ttf') format('truetype');
+  src: url('Assets/Fonts/Variable-TT/Thunder-VF.ttf') format('truetype');
   font-weight: 1 1000;
   font-style: normal;
   font-display: swap; 
@@ -25,25 +24,28 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 25px 50px;
-    background-color: #5c843e; 
+    background-color: #660066; 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     box-sizing: border-box;
-    border-bottom: 1px solid white;
 }
 
 .logo {
     width: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    text-decoration: none;
 }
 
 .nav-links a {
     text-decoration: none;
     color: white;
     margin: 0 35px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -65,17 +67,17 @@ body {
     overflow: hidden;
 }
 
-.green .number { color: #5c843e; }
-.green:hover { background-color: #8CAB7E; }
+.green .number { color: #660066; }
+.green:hover { background-color: #7d4da3; }
 
-.red .number { color: #5c843e; }
-.red:hover { background-color: #8CAB7E; }
+.red .number { color: #660066; }
+.red:hover { background-color: #7d4da3; }
 
-.purple .number { color: #5c843e; }
-.purple:hover { background-color: #8CAB7E; }
+.purple .number { color: #660066; }
+.purple:hover { background-color: 	#7d4da3; }
 
-.orange .number { color: #5c843e; }
-.orange:hover { background-color: #8CAB7E; }
+.orange .number { color: 	#660066; }
+.orange:hover { background-color: #7d4da3; }
 
 .item-image {
     width: 0;
@@ -94,9 +96,17 @@ body {
     flex: 1.5; 
     color: white;
 }
+.info a{
+    color: #660066;
+    font-size: 17px;
+}
 
 .info {
     text-align: center;
+}
+
+.info a,p,h2{
+    color: #efbbff;
 }
 
 .number {
@@ -116,9 +126,7 @@ body {
     font-size: 14px;
 }
 
-.info a{
-    font-size: 22px;
+body{
+    background-color: #efbbff;
 }
-.info p{
-    font-size: 20px;
-}
+

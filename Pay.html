@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zen Cafe</title>
+  <link rel="stylesheet" href="Pay.css">
+</head>
+<body>
+
+<header><a href="index.html"><img id = "logo" src="Assets/Images/image.png"></a></header>
+
+
+<div class="container">
+
+  <!-- MENU -->
+  <div class="box">
+    <h3>📋 Menu</h3>
+    <div id="menu"></div>
+  </div>
+
+  <!-- CART -->
+  <div class="box cart-box">
+    <h3>🛒 Your Order</h3>
+
+    <div id="cartList"><i>Cart is empty</i></div>
+    <div id="total"></div>
+
+    <input id="customerName" placeholder="Your name">
+    <input type="number" id="moneyGiven" placeholder="Money given (UGX)" oninput="calcChange()">
+
+    <div id="changeBox"></div>
+
+    <button class="placeOrder" onclick="placeOrder()">Place Order</button>
+  </div>
+
+</div>
+
+<script src="Pay.js"></script>
+</body>
+</html>

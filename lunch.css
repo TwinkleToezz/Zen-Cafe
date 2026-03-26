@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color:white;
-
+    color: white;
 }
 
 body {
@@ -13,11 +12,11 @@ body {
 }
 
 @font-face {
-  font-family: 'Thunder';
-  src: url('Assets/Fonts/Thunder-VF.ttf') format('truetype');
-  font-weight: 1 1000;
-  font-style: normal;
-  font-display: swap; 
+    font-family: 'Thunder';
+    src: url('Assets/Fonts/Thunder-VF.ttf') format('truetype');
+    font-weight: 1 1000;
+    font-style: normal;
+    font-display: swap;
 }
 
 .navbar {
@@ -25,18 +24,20 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 25px 50px;
-    background-color: #5c843e; 
+    background-color: #12568e;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     box-sizing: border-box;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo {
     width: 22px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .nav-links a {
@@ -65,17 +66,37 @@ body {
     overflow: hidden;
 }
 
-.green .number { color: #5c843e; }
-.green:hover { background-color: #8CAB7E; }
+.green .number {
+    color: #12568e;
+}
 
-.red .number { color: #5c843e; }
-.red:hover { background-color: #8CAB7E; }
+.green:hover {
+    background-color: #1b81c0;
+}
 
-.purple .number { color: #5c843e; }
-.purple:hover { background-color: #8CAB7E; }
+.red .number {
+    color: #12568e;
+}
 
-.orange .number { color: #5c843e; }
-.orange:hover { background-color: #8CAB7E; }
+.red:hover {
+    background-color: #1b81c0;
+}
+
+.purple .number {
+    color: #12568e;
+}
+
+.purple:hover {
+    background-color: #1b81c0;
+}
+
+.orange .number {
+    color: #12568e;
+}
+
+.orange:hover {
+    background-color: #1b81c0;
+}
 
 .item-image {
     width: 0;
@@ -85,19 +106,20 @@ body {
 }
 
 .box:hover .item-image {
-    width: 260px; 
+    width: 260px;
     opacity: 1;
     margin-bottom: 20px;
 }
 
 .box:hover {
-    flex: 1.5; 
+    flex: 1.5;
     color: white;
 }
 
 .info {
     text-align: center;
 }
+
 
 .number {
     font-size: 70px;
