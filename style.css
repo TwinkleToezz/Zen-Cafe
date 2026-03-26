@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color:white;
+    font-family: 'Thunder', sans-serif;
 }
 
 @font-face {
@@ -11,7 +12,7 @@
   font-weight: 1 1000;
   font-style: normal;
   font-display: block;
-  font-family: 'Thunder', sans-serif;
+  
 }
 
 .Backgroundtxt {
