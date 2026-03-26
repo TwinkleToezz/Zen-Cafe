@@ -10,7 +10,8 @@
   src: url('Assets/Fonts/Thunder-VF.ttf') format('truetype');
   font-weight: 1 1000;
   font-style: normal;
-  font-display: block; 
+  font-display: block;
+  font-family: 'Thunder', sans-serif;
 }
 
 .Backgroundtxt {
