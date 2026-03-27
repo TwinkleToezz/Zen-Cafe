@@ -154,7 +154,6 @@ function checkUrlForItems() {
     }
 }
 
-
 showMenu();
 showCart();
 checkUrlForItems(); 

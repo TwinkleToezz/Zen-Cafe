@@ -11,8 +11,7 @@
   src: url('Assets/Fonts/Thunder-VF.ttf') format('truetype');
   font-weight: 1 1000;
   font-style: normal;
-  font-display: block;
-  
+  font-display: swap; 
 }
 
 .Backgroundtxt {
@@ -220,7 +219,7 @@ h2{
 
 #logo{
     position: absolute;
-    width: 100px;
+    width: 70px;
     margin: 20px;
     z-index: 1;
 }

@@ -9,7 +9,7 @@
 body {
     margin: 0;
     font-family: Thunder;
-    background: #f4f4f4;
+    background: white;
 }
 
 @font-face {
@@ -107,7 +107,7 @@ body {
 }
 
 .info a,p,h2{
-    color: #efbbff;
+    color: white;
 }
 
 .number {
@@ -128,6 +128,5 @@ body {
 }
 
 body{
-    background-color: #efbbff;
+    background-color: white;
 }
-
